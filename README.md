@@ -47,7 +47,7 @@ Tip: $50
 (For simplicity, tax+tip = $100)
 Total: $1000
 
-In the traditional bill-splitting algorithm, Alice, Bob, and Carli would each pay $33.33 to cover the tax+tip. This is clearly unfair to Alice and Bob, who purchased much less than Carli and therefore contributed much less to the subtotal. **Remember, the tax+tip goes up directly in response to the subtotal going up.** Under the new algorithm, the percentage of each person's contribution to the subtotal would be the same percentage of their coverage of the tax+tip. So instead of Alice and Bob paying $38.33 for their meals ($5 for the food, $33.33 for the tax+tip), Alice and Bob would each pay $5.56 ($5 for the food, $0.56 for their contribution to the overall bill).
+In the traditional bill-splitting algorithm, Alice, Bob, and Carli would each pay $33.33 to cover the tax+tip. This is clearly unfair to Alice and Bob, who purchased much less than Carli and therefore contributed much less to the subtotal. **Remember, the tax+tip goes up directly in response to the subtotal going up.** Under the new algorithm, the percentage of each person's contribution to the subtotal would be the same percentage of their coverage of the tax+tip. So instead of Alice and Bob paying $38.33 for their meals ($5 for the food, $33.33 for the tax+tip), Alice and Bob would each pay $5.56 ($5 for the food, $0.56 for their contribution to the overall tax+tip) while Carli would pay $988.89 ($890 for the food, $98.89 for their contribution to the overall tax+tip).
 
 This algorithm, therefore, results in the most fair bill splitting.
 
