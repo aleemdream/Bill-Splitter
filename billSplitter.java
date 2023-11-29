@@ -98,19 +98,18 @@ public class billSplitter
 
         System.out.println("\n\nSplit Bill:");
         String moneySubtotal = formatter.format(subtotal);
-        System.out.println("Subtotal: $" + moneySubtotal);
+        System.out.println("Subtotal: " + moneySubtotal);
         String moneyTax = formatter.format(tax);
-        System.out.println("Tax: $" + moneyTax);
+        System.out.println("Tax: " + moneyTax);
         String moneyTip = formatter.format(tip);
-        System.out.println("Tip: $" + moneyTip);
+        System.out.println("Tip: " + moneyTip);
         for (int i = 0; i < number; i++)
         {
             String moneyString = formatter.format(round(perCosts[i],2));
-            System.out.println(names[i] + "'s total: $" + moneyString);
-            check += perCosts[i];
+            System.out.println(names[i] + "'s total: " + moneyString);
         }
         String moneytotal = formatter.format(total);
-        System.out.println("Total: $" + moneytotal);
+        System.out.println("Total: " + moneytotal);
         scanner.close();
     }
 }
