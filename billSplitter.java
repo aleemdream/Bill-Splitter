@@ -130,9 +130,7 @@ public class billSplitter
                 {
                     //if both i and j are covered, j will NOT assume i's costs for being covered
                     if (!covered[j])
-                    {
                         perCosts[j] += coveredPerPerson;
-                    }
                 }
             }
         }
