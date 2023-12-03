@@ -10,6 +10,7 @@ The program first prompts for the total number of users who contributed towards 
 **Make sure to account for everyone who contributed towards the bill, even if their portion of the bill is being covered by the rest of the group.**
 
 Next, the program will ask for the names of each person, their individual contributions towards the bill **before tax/tip**, and whether or not their bill is being covered by the rest of the group.
+If someone is marked as having their bill covered by the rest of the group, then their individual bill will be distributed in equal parts to the rest of the party.
 
 Finally, the program will ask for the tax and the tip on the final bill.
 
