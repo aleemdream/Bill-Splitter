@@ -8,6 +8,7 @@ The program works through the command line, where it accepts inputs.
 
 The program first prompts for the total number of users who contributed towards the bill.
 **Make sure to account for everyone who contributed towards the bill, even if their portion of the bill is being covered by the rest of the group.**
+If two people decide to split one menu item, that costs $7 for example, consider both people as having $3.50 on their bill.
 
 Next, the program will ask for the names of each person, their individual contributions towards the bill **before tax/tip**, and whether or not their bill is being covered by the rest of the group.
 If someone is marked as having their bill covered by the rest of the group, then their individual bill will be distributed in equal parts to the rest of the party.
