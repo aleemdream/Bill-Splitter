@@ -5,6 +5,7 @@ This program is meant to solve the issue of bills being split at restaurants whe
 
 ## How To Use:
 The program works through the command line, where it accepts inputs.
+You can run this program on a terminal on your computer, or you can run it on your phone by going to this link http://tpcg.io/3Q9GDY and pressing "EXECUTE".
 
 The program first prompts for the total number of users who contributed towards the bill.
 **Make sure to account for everyone who contributed towards the bill, even if their portion of the bill is being covered by the rest of the group.**
